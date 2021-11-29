@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Concert Venue</string>
+    <string name="details">Details</string>
+    <string name="concert_poster">concert_poster</string>
+    <string name="call_info">Call for more information:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="activity_name">Concert Selection</string>
+    <string name="final_activity_name">Place Tickets</string>
+    <string name="order_tickets">Order Tickets</string>
+
+    <string-array name="bands">
+        <item>Fall Out Boy</item>
+        <item>Imagine Dragons</item>
+        <item>Maroon 5</item>
+        <item>OneRepublic</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>Cost: $50.76 per person
+            Times:
+            Mon. 3/12 at 4:30 p.m.
+            Tues. 3/13 at 5:00 p.m</item>
+        <item>Cost: $45.99 per person
+            Times:
+            Weds. 3/14 at 4:30 p.m.
+            Thurs. 3/15 at 5:00 p.m</item>
+        <item>Cost: $60.46 per person
+            Times:
+            Fri. 3/16 at 4:30 p.m.
+            Sat. 3/17 at 5:00 p.m</item>
+        <item>Cost: $50.76 per person
+            Times:
+            Sat. 3/17 at 9:30 p.m.
+            Sun. 3/13 at 6:00 p.m</item>
+    </string-array>
+</resources>
