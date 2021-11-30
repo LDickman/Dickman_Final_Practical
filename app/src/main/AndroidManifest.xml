@@ -17,6 +17,7 @@
         android:theme="@style/Theme.Dickman_Final_Practical">
         <activity
             android:name=".PlaceOrderActivity"
+            android:label="Place Order"
             android:exported="true" />
         <activity
             android:name=".SelectConcertActivity"

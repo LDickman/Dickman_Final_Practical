@@ -52,33 +52,36 @@ public class DetailFragment extends Fragment {
             descriptionTextView.setText(mBand.getDescription());
             timeTextView.setText(mBand.getTimes());
             Log.d(TAG, mBand.getTimes());
+            setEarlyDateTime(mBand);
+            setLateDateTime(mBand);
+            setCostTicket(mBand);
         }
         return rootView;
     }
 
-//    private static void setEarlyDateTime(Band band) {
-//        time_select_early = band.getDate(9, 28);
-//    }
-//
-//    private static void setLateDateTime(Band band) {
-//        time_select_late = band.getDate(30, 45);
-//    }
-//
-//    public static String getEarlyDateTime() {
-//        return time_select_early;
-//    }
-//
-//    public static String getLateDateTime() {
-//        return time_select_late;
-//    }
-//
-//    private static void setCostTicket(Band band) {
-//        cost = band.getCost();
-//    }
-//
-//    public static String getCostTicket() {
-//        return cost;
-//    }
+    private static void setEarlyDateTime(Band band) {
+        time_select_early = band.getDate(9, 29);
+    }
+
+    private static void setLateDateTime(Band band) {
+        time_select_late = band.getDate(30, 52);
+    }
+
+    public static String getEarlyDateTime() {
+        return time_select_early;
+    }
+
+    public static String getLateDateTime() {
+        return time_select_late;
+    }
+
+    private static void setCostTicket(Band band) {
+        cost = band.getCost();
+    }
+
+    public static String getCostTicket() {
+        return cost;
+    }
 }
 
 
