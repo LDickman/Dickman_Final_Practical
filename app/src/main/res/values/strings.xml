@@ -8,6 +8,9 @@
     <string name="activity_name">Concert Selection</string>
     <string name="final_activity_name">Place Tickets</string>
     <string name="order_tickets">Order Tickets</string>
+    <string name="userName">Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
 
     <string-array name="bands">
         <item>Fall Out Boy</item>
@@ -17,21 +20,41 @@
     </string-array>
 
     <string-array name="descriptions">
-        <item>Cost: $50.76 per person
-            Times:
-            Mon. 3/12 at 4:30 p.m.
-            Tues. 3/13 at 5:00 p.m</item>
-        <item>Cost: $45.99 per person
-            Times:
-            Weds. 3/14 at 4:30 p.m.
-            Thurs. 3/15 at 5:00 p.m</item>
-        <item>Cost: $60.46 per person
-            Times:
-            Fri. 3/16 at 4:30 p.m.
-            Sat. 3/17 at 5:00 p.m</item>
-        <item>Cost: $50.76 per person
-            Times:
-            Sat. 3/17 at 9:30 p.m.
-            Sun. 3/13 at 6:00 p.m</item>
+        <item>Cost: $50.76 per person</item>
+        <item>Cost: $45.99 per person</item>
+        <item>Cost: $60.46 per person</item>
+        <item>Cost: $50.76 per person</item>
     </string-array>
+
+    <string-array name="costs">
+        <item>50.76</item>
+        <item>45.99</item>
+        <item>60.46</item>
+        <item>50.76</item>
+    </string-array>
+
+    <string-array name="times">
+        <item>
+            <item>"Times: "\n</item>
+            <item>"Mon. 3/12 at 4:30PM"\n</item>
+            <item>"Tue. 3/13 at 5:00PM"\n</item>
+        </item>
+        <item>
+            <item>Times:"\n</item>
+            <item>Weds. 3/14 at 4:30PM"\n</item>
+            <item>Thurs. 3/15 at 5:00PM"\n</item>
+        </item>
+        <item>
+            <item>"Times:"\n</item>
+            <item>"Fri. 3/16 at 4:30PM"\n</item>
+            <item>"Sat. 3/17 at 5:00PM"\n</item>
+        </item>
+        <item>
+            <item>"Times:"\n</item>
+            <item>"Sat. 3/17 at 9:30PM"\n</item>
+            <item>"Sun. 3/13 at 6:00PM"\n</item>
+        </item>
+    </string-array>
+
+
 </resources>

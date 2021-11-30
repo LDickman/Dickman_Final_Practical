@@ -8,6 +8,7 @@
     android:layout_height="match_parent">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:background="@color/yellow_200"
         android:id="@+id/band_list"
         android:name="com.zybooks.dickman_final_practical.ItemListFragment"
         android:layout_width="match_parent"

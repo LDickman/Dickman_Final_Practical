@@ -1,9 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PlaceOrderActivity">
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/user_Name"
+        android:layout_width="378dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:text="@string/userName"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/submit_First_name"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name" />
+    <EditText
+        android:id="@+id/submit_Last_name"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name" />
+
+    <TextView
+        android:id="@+id/tickets"
+        android:layout_width="378dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:text="Number of Tickets"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/num_attend_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="5"
+        android:importantForAutofill="no"
+        android:hint="2" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="378dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:text="Total Cost:"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/total_cal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="5"
+        android:importantForAutofill="no"
+        android:text="0" />
+    <Button
+        android:id="@+id/cal_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:onClick="calculateClick"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="378dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:text="Time"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <RadioGroup
+        android:id="@+id/time_radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/early_time_radio_button"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/late_time_radio_button"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
+        android:text="Submit" />
+
+</LinearLayout>

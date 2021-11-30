@@ -10,15 +10,11 @@ import androidx.navigation.ui.NavigationUI;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
+
+import java.util.List;
 
 public class SelectConcertActivity extends AppCompatActivity {
-
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_select_concert);
-//    }
-//}
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +38,7 @@ public class SelectConcertActivity extends AppCompatActivity {
     }
 
     public void onOrderClick(View view) {
+        Toast.makeText(SelectConcertActivity.this, "Now purchasing Tickets!", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, PlaceOrderActivity.class);
         startActivity(intent);
     }
