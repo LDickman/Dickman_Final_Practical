@@ -36,23 +36,23 @@
     <string-array name="times">
         <item>
             <item>"Times: "\n</item>
-            <item>"Mon. 3/12 at 4:30PM"\n</item>
-            <item>"Tue. 3/13 at 5:00PM"\n</item>
+            <item>"Mon. 11/12 at 4:30PM"\n</item>
+            <item>"Tue. 11/13 at 5:00PM"\n</item>
         </item>
         <item>
             <item>Times:"\n</item>
-            <item>Weds. 3/14 at 4:30PM"\n</item>
-            <item>Thurs. 3/15 at 5:00PM"\n</item>
+            <item>Weds. 11/14 at 4:30PM"\n</item>
+            <item>Thurs. 11/15 at 5:00PM"\n</item>
         </item>
         <item>
             <item>"Times:"\n</item>
-            <item>"Fri. 3/16 at 4:30PM"\n</item>
-            <item>"Sat. 3/17 at 5:00PM"\n</item>
+            <item>"Fri. 11/16 at 4:30PM"\n</item>
+            <item>"Sat. 11/17 at 5:00PM"\n</item>
         </item>
         <item>
             <item>"Times:"\n</item>
-            <item>"Sat. 3/17 at 9:30PM"\n</item>
-            <item>"Sun. 3/13 at 6:00PM"\n</item>
+            <item>"Sat. 11/17 at 9:30PM"\n</item>
+            <item>"Sun. 11/13 at 6:00PM"\n</item>
         </item>
     </string-array>
 

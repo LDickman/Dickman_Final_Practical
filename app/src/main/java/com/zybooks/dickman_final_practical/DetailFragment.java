@@ -59,8 +59,8 @@ public class DetailFragment extends Fragment {
     }
 
     private static void setDateTimes(Band band) {
-        time_select_early = band.getDate(9, 29);
-        time_select_late = band.getDate(30, 51);
+        time_select_early = band.getDate(9, 30);
+        time_select_late = band.getDate(31, 52);
     }
 
     public static String getEarlyDateTime() {
