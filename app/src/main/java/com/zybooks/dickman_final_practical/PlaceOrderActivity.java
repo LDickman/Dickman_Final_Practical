@@ -22,6 +22,7 @@ public class PlaceOrderActivity extends AppCompatActivity {
     private String people;
     private String time;
     private String cost_ticket = DetailFragment.getCostTicket();
+    private String band_Name = DetailFragment.getBandName();
     private EditText num_tickets;
     private String total_cost;
     private TextView total_cost_view;
@@ -59,7 +60,7 @@ public class PlaceOrderActivity extends AppCompatActivity {
                 } else if (checkedId == R.id.early_time_radio_button) {
                     time = time_select_early.getText().toString();
                 }
-                result = "Name: "+ full_name +" "+LastName.getText().toString() +"\n" + "Number of tickets: "+ people +"\n" + "Total Cost: "+total_cost+"\n" +"Date: "+ time +"\n";
+                result = "Concert: "+band_Name+"\n"+"Name: "+ full_name +"\n" + "Number of tickets: "+ people +"\n" + "Total Cost: "+total_cost+"\n" +"Date: "+ time +"\n";
                 Toast.makeText(PlaceOrderActivity.this, result, Toast.LENGTH_LONG).show();
             }
         });

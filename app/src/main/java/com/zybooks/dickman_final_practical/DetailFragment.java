@@ -14,6 +14,7 @@ public class DetailFragment extends Fragment {
     private static final String TAG = "Detail Fragment";
     private static String time_select_early;
     private static String cost;
+    private static String band_name;
     private static String time_select_late;
     private Band mBand;
     public static final String ARG_BAND_ID = "band_id";
@@ -54,6 +55,7 @@ public class DetailFragment extends Fragment {
             Log.d(TAG, mBand.getTimes());
             setDateTimes(mBand);
             setCostTicket(mBand);
+            setBandName(mBand);
         }
         return rootView;
     }
@@ -77,6 +79,14 @@ public class DetailFragment extends Fragment {
 
     public static String getCostTicket() {
         return cost;
+    }
+
+    private static void setBandName(Band band) {
+        band_name = band.getName();
+    }
+
+    public static String getBandName() {
+        return band_name;
     }
 }
 
