@@ -52,19 +52,15 @@ public class DetailFragment extends Fragment {
             descriptionTextView.setText(mBand.getDescription());
             timeTextView.setText(mBand.getTimes());
             Log.d(TAG, mBand.getTimes());
-            setEarlyDateTime(mBand);
-            setLateDateTime(mBand);
+            setDateTimes(mBand);
             setCostTicket(mBand);
         }
         return rootView;
     }
 
-    private static void setEarlyDateTime(Band band) {
+    private static void setDateTimes(Band band) {
         time_select_early = band.getDate(9, 29);
-    }
-
-    private static void setLateDateTime(Band band) {
-        time_select_late = band.getDate(30, 52);
+        time_select_late = band.getDate(30, 51);
     }
 
     public static String getEarlyDateTime() {

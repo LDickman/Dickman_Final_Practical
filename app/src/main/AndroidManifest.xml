@@ -18,9 +18,11 @@
         <activity
             android:name=".PlaceOrderActivity"
             android:label="Place Order"
+            android:parentActivityName=".SelectConcertActivity"
             android:exported="true" />
         <activity
             android:name=".SelectConcertActivity"
+            android:parentActivityName=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

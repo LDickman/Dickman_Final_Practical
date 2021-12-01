@@ -23,14 +23,14 @@
         <item>Cost: $50.76 per person</item>
         <item>Cost: $45.99 per person</item>
         <item>Cost: $60.46 per person</item>
-        <item>Cost: $50.76 per person</item>
+        <item>Cost: $55.87 per person</item>
     </string-array>
 
     <string-array name="costs">
         <item>50.76</item>
         <item>45.99</item>
         <item>60.46</item>
-        <item>50.76</item>
+        <item>55.87</item>
     </string-array>
 
     <string-array name="times">

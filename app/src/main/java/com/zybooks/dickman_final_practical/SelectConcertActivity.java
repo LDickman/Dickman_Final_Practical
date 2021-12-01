@@ -20,10 +20,12 @@ public class SelectConcertActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_concert);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.nav_host_fragment);
 
         if (navHostFragment != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             NavController navController = navHostFragment.getNavController();
             AppBarConfiguration appBarConfig = new AppBarConfiguration.
                     Builder(navController.getGraph()).build();
