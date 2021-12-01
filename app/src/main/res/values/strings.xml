@@ -8,9 +8,21 @@
     <string name="activity_name">Concert Selection</string>
     <string name="final_activity_name">Place Tickets</string>
     <string name="order_tickets">Order Tickets</string>
-    <string name="userName">Name</string>
-    <string name="first_name">First Name</string>
-    <string name="last_name">Last Name</string>
+    <string name="userName_textView">Name</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="time">Time</string>
+    <string name="calculate">Calculate</string>
+    <string name="total_cost_TextView">Total Cost:</string>
+    <string name="number_of_tickets_textView">Number of Tickets</string>
+    <string name="num_ticket_hint">2</string>
+    <string name="submit">Submit</string>
+    <string name="concet_venue">Lawrenceburg Event Center</string>
+    <string name="select_concert">Select Concert</string>
+    <string name="phone_number">1-812-754-9422</string>
+    <string name="number_of_tickets">Number of Tickets</string>
+    <string name="hint_num_tickets">2</string>
+    <string name="total_cost">Total Cost:</string>
 
     <string-array name="bands">
         <item>Fall Out Boy</item>
@@ -36,23 +48,23 @@
     <string-array name="times">
         <item>
             <item>"Times: "\n</item>
-            <item>"Mon. 11/12 at 4:30PM"\n</item>
-            <item>"Tue. 11/13 at 5:00PM"\n</item>
+            <item>"Mon. 10/12 at 4:30PM"\n</item>
+            <item>"Tue. 10/13 at 5:00PM"\n</item>
         </item>
         <item>
             <item>Times:"\n</item>
-            <item>Weds. 11/14 at 4:30PM"\n</item>
-            <item>Thurs. 11/15 at 5:00PM"\n</item>
+            <item>Weds. 10/14 at 4:30PM"\n</item>
+            <item>Thurs. 10/15 at 5:00PM"\n</item>
         </item>
         <item>
             <item>"Times:"\n</item>
-            <item>"Fri. 11/16 at 4:30PM"\n</item>
-            <item>"Sat. 11/17 at 5:00PM"\n</item>
+            <item>"Fri. 10/16 at 4:30PM"\n</item>
+            <item>"Sat. 10/17 at 5:00PM"\n</item>
         </item>
         <item>
             <item>"Times:"\n</item>
-            <item>"Sat. 11/17 at 9:30PM"\n</item>
-            <item>"Sun. 11/13 at 6:00PM"\n</item>
+            <item>"Sat. 10/17 at 9:30PM"\n</item>
+            <item>"Sun. 10/13 at 6:00PM"\n</item>
         </item>
     </string-array>
 

@@ -13,7 +13,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="0dp"
         android:gravity="left"
-        android:text="@string/userName"
+        android:text="@string/userName_textView"
         android:textSize="25dp"
         android:textStyle="bold"/>
 
@@ -28,7 +28,7 @@
             android:layout_height="match_parent"
             android:layout_marginTop="0dp"
             android:layout_marginLeft="50dp"
-            android:hint="@string/first_name" />
+            android:hint="@string/first_name_hint" />
 
         <EditText
             android:id="@+id/submit_Last_name"
@@ -37,7 +37,7 @@
             android:layout_marginLeft="100dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="0dp"
-            android:hint="@string/last_name" />
+            android:hint="@string/last_name_hint" />
 
     </LinearLayout>
 
@@ -48,7 +48,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="0dp"
         android:gravity="left"
-        android:text="Number of Tickets"
+        android:text="@string/number_of_tickets_textView"
         android:textSize="25dp"
         android:textStyle="bold"/>
 
@@ -64,7 +64,7 @@
         android:inputType="number"
         android:ems="5"
         android:importantForAutofill="no"
-        android:hint="2" />
+        android:hint="@string/num_ticket_hint" />
 
         <TextView
             android:id="@+id/totalView"
@@ -73,7 +73,7 @@
             android:layout_gravity="center"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="0dp"
-            android:text="Total Cost:"
+            android:text="@string/total_cost_TextView"
             android:textSize="20dp"
             android:textStyle="bold"/>
 
@@ -94,7 +94,7 @@
             android:layout_marginBottom="0dp"
             android:layout_marginLeft="100dp"
             android:onClick="calculateClick"
-            android:text="Calculate" />
+            android:text="@string/calculate" />
 
     </LinearLayout>
 
@@ -105,7 +105,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="0dp"
         android:gravity="center"
-        android:text="Time"
+        android:text="@string/time"
         android:textSize="25dp"
         android:textStyle="bold"/>
 
@@ -143,6 +143,6 @@
         android:layout_gravity="center"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="0dp"
-        android:text="Submit" />
+        android:text="@string/submit" />
 
 </LinearLayout>

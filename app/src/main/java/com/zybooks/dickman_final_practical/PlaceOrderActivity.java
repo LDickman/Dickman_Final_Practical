@@ -54,6 +54,7 @@ public class PlaceOrderActivity extends AppCompatActivity {
             public void onClick(View v) {
                 people = num_tickets.getText().toString();
                 full_name = firstName.getText().toString() +" "+LastName.getText().toString();
+                total_cost = String.format("%.2f", calculate());
                 int checkedId = time_select_radio_group.getCheckedRadioButtonId();
                 if (checkedId == R.id.late_time_radio_button) {
                     time = time_select_late.getText().toString();
@@ -67,13 +68,16 @@ public class PlaceOrderActivity extends AppCompatActivity {
     }
 
     public void calculateClick(View view) {
+        Double total = calculate();
+        total_cost_view.setText(String.format("%.2f", total));
+    }
+
+    public double calculate() {
         //get entered texts from the edittexts,and convert to integers.
         Double value1 = Double.parseDouble(cost_ticket);
         Integer value2 = Integer.parseInt(num_tickets.getText().toString());
         //do the calculation
         Double calculatedValue = (value2*value1);
-        //set the value to the textview, to display on screen.
-        total_cost = String.format("%.2f", calculatedValue);
-        total_cost_view.setText(String.format("%.2f", calculatedValue));
+        return calculatedValue;
     }
 }

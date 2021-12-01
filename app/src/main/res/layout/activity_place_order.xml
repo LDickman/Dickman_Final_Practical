@@ -12,22 +12,23 @@
         android:layout_height="30dp"
         android:layout_gravity="center"
         android:layout_marginTop="0dp"
-        android:text="@string/userName"
+        android:text="@string/userName_textView"
         android:textSize="20dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textStyle="bold"/>
 
     <EditText
         android:id="@+id/submit_First_name"
         android:layout_marginTop="0dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/first_name" />
+        android:hint="@string/first_name_hint" />
     <EditText
         android:id="@+id/submit_Last_name"
         android:layout_marginTop="0dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/last_name" />
+        android:hint="@string/last_name_hint" />
 
     <TextView
         android:id="@+id/tickets"
@@ -35,9 +36,10 @@
         android:layout_height="30dp"
         android:layout_gravity="center"
         android:layout_marginTop="0dp"
-        android:text="Number of Tickets"
+        android:text="@string/number_of_tickets"
         android:textSize="20dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textStyle="bold"/>
 
     <EditText
         android:id="@+id/num_attend_edit_text"
@@ -46,7 +48,7 @@
         android:inputType="number"
         android:ems="5"
         android:importantForAutofill="no"
-        android:hint="2" />
+        android:hint="@string/hint_num_tickets" />
 
     <TextView
         android:id="@+id/totalView"
@@ -54,8 +56,9 @@
         android:layout_height="44dp"
         android:layout_gravity="left"
         android:layout_marginTop="0dp"
-        android:text="Total Cost:"
-        android:textSize="20dp"/>
+        android:text="@string/total_cost"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/total_cost_cal"
@@ -72,7 +75,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="0dp"
         android:onClick="calculateClick"
-        android:text="Calculate" />
+        android:text="@string/calculate" />
 
     <TextView
         android:id="@+id/time"
@@ -80,9 +83,10 @@
         android:layout_height="44dp"
         android:layout_gravity="center"
         android:layout_marginTop="0dp"
-        android:text="Time"
+        android:text="@string/time"
         android:textSize="20dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textStyle="bold"/>
 
     <RadioGroup
         android:id="@+id/time_radio_group"

@@ -4,7 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.2984375" />
-        <entry key="app/src/main/res/layout-land/activity_place_order.xml" value="0.2984375" />
+        <entry key="app/src/main/res/layout-land/activity_place_order.xml" value="0.125" />
         <entry key="app/src/main/res/layout-land/activity_select_concert.xml" value="0.2984375" />
         <entry key="app/src/main/res/layout-land/fragment_detail.xml" value="0.2984375" />
         <entry key="app/src/main/res/layout-sw600dp/fragment_detail.xml" value="0.19569672131147542" />
