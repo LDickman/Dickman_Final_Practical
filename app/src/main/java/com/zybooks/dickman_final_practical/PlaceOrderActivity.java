@@ -60,7 +60,7 @@ public class PlaceOrderActivity extends AppCompatActivity {
                 } else if (checkedId == R.id.early_time_radio_button) {
                     time = time_select_early.getText().toString();
                 }
-                result = "Concert: "+band_Name+"\n"+"Name: "+ full_name +"\n" + "Number of tickets: "+ people +"\n" + "Total Cost: "+total_cost+"\n" +"Date: "+ time +"\n";
+                result = "Concert: "+band_Name+"\n"+"Name: "+ full_name +"\n" + "Number of tickets: "+ people +"\n" + "Total Cost: $"+total_cost+"\n" +"Date: "+ time +"\n";
                 Toast.makeText(PlaceOrderActivity.this, result, Toast.LENGTH_LONG).show();
             }
         });

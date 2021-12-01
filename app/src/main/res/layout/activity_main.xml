@@ -6,21 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!--    <TextView-->
-<!--        android:id="@+id/concert_slogan"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:gravity="center"-->
-<!--        android:text="Rocking With the Best of Them"-->
-<!--        android:textSize="40dp"-->
-<!--        android:textStyle="bold"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.0"-->
-<!--        app:layout_constraintLeft_toLeftOf="parent"-->
-<!--        app:layout_constraintRight_toRightOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.247" />-->
-
     <ImageView
         android:layout_width="812dp"
         android:layout_height="1362dp"
@@ -67,7 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Lawrenceburg Event Center"
+        android:text="@string/concet_venue"
         android:textColor="@color/red_700"
         android:textSize="40dp"
         android:textStyle="bold"
@@ -83,7 +68,7 @@
         android:layout_width="234dp"
         android:layout_height="71dp"
         android:onClick="callNumber"
-        android:text="1-812-754-9422"
+        android:text="@string/phone_number"
         android:textColor="@color/black"
         android:textSize="18dp"
         app:backgroundTint="@color/orange_200"
@@ -99,7 +84,7 @@
         android:layout_width="209dp"
         android:layout_height="68dp"
         android:onClick="onNextClick"
-        android:text="Select Concert"
+        android:text="@string/select_concert"
         android:textColor="@color/black"
         android:textSize="18dp"
         app:backgroundTint="@color/orange_500"
